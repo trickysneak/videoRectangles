@@ -1,0 +1,21 @@
+@import "reset";
+@import "./themes/dark";
+@import "./themes/light";
+@import "./variables/global";
+@font-face {
+  font-family: "Rubik";
+  src: url("../../shared/assets/fonts/Rubik-Regular.ttf");
+  font-weight: 400;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font: var(--font-l);
+  background: var(--bg-color);
+  min-height: 100vh;
+}

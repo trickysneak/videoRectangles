@@ -1,0 +1,15 @@
+.Header {
+  width: 100%;
+  height: var(--navbar-height);
+  background-color: var(--inverted-bg-color);
+  display: flex;
+  justify-content: center;
+}
+
+.HeaderContainer {
+  width: var(--header-size);
+  display: flex;
+  align-items: center;
+  column-gap: var(--column-gap-m);
+  padding: var(--padding-s) var(--padding-l) var(--padding-s) var(--padding-l);
+}
